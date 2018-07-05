@@ -35,19 +35,7 @@ position_3 = board[win_position_3]
     return false
 end
 # for draw
-i = 0
-j = 0
-while i < 9
-if(position_taken?(board,i))
-  j = (j+1)
-  end
- i = (i+1)
-end
-  if(j == 8)
-    return false
-  else
-    return true
-  end
+
 end
 
 
@@ -56,10 +44,19 @@ end
 def full?(board)
 if(won?(board) == false)
   return true
-elsif(won?(board) == true)
-  return false
   end
-end
+  i = 0
+  j = 0
+  while i < 9
+  if(position_taken?(board,i))
+    j = (j+1)
+    end
+   i = (i+1)
+  end
+    if(j != 8)
+      return false
+    end
+  end
 #below is over method
 
 def over?

@@ -45,6 +45,8 @@ if(position_taken?(board,i))
 end
   if(j == 8)
     return false
+  else
+    return true
   end
 end
 

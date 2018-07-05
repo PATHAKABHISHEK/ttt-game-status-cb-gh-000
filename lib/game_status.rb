@@ -56,7 +56,7 @@ end
 def full?(board)
 if(won?(board) == false)
   return true
-else
+elsif (won?(board) == true)
   return false
   end
 end

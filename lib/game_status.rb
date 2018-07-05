@@ -49,9 +49,9 @@ if(position_taken?(board,i))
  i = (i + 1)
 end
   if(j == 8)
-    return false
-  else
     return true
+  else
+    return false
   end
 end
 
@@ -62,7 +62,7 @@ end
 
 # below is winner method
 
-def winner?(board)
+def winner?
 end
 
 # below is draw method

@@ -56,17 +56,17 @@ end
 
 #below is over method
 
-def over
+def over?
 end
 
 # below is winner method
 
-def winner(board)
+def winner?(board)
 end
 
 # below is draw method
 
-def draw(board)
+def draw?(board)
 i =0
   j = 0
   while i <
@@ -77,6 +77,6 @@ i =0
   end
     if(j == 8)
       return true
-    
+
     end
 end

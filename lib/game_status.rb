@@ -67,7 +67,7 @@ end
 # below is draw method
 
 def draw(board)
-i =0 
+i =0
   j = 0
   while i <
   if(position_taken?(board,i))

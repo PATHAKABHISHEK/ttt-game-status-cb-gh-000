@@ -77,7 +77,6 @@ i =0
   end
     if(j == 8)
       return true
-    else
-      return false
+    
     end
 end

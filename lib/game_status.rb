@@ -53,7 +53,7 @@ if(won?(board) == false)
     end
    i = (i+1)
   end
-    if (j != 8)
+    if (j == 8)
       return false
     end
   end

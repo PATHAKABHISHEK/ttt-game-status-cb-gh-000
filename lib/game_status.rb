@@ -70,16 +70,7 @@ end
 # below is draw method
 
 def draw?(board)
-i =0
-  j = 0
-  while i <
-  if(position_taken?(board,i))
-    j = (j + 1)
-    end
-   i = (i + 1)
-  end
-    if(j == 8)
-      return false
+
 
     end
 end

@@ -44,7 +44,6 @@ end
 # below is full method
 
 def full?(board)
-
 if(won?(board) == false)
   return true
 end

@@ -47,7 +47,18 @@ def full?(board)
 
 if(won?(board) == false)
   return true
-
+end
+if true
+  while (i < 9)
+    if(position_taken?(board,i))
+      j = j + 1
+    end
+     i = i + 1
+  end
+if ( j != 8)
+  return false
+end
+end
 
 end
 #below is over method

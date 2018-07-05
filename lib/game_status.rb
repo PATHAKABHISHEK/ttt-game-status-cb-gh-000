@@ -33,7 +33,7 @@ position_3 = board[win_position_3]
   end
   if (board = [" ", " ", " ", " ", " ", " ", " ", " ", " ",])
     return false
-  
+
   end
 end
 
@@ -44,9 +44,11 @@ def full?(board)
 i = 0
 j = 0
 while i < 9
+if(won?(board) == false)
 if(position_taken?(board,i))
   j = (j+1)
   end
+end
  i = (i+1)
 end
   if(j == 8)

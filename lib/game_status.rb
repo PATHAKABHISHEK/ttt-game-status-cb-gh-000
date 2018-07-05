@@ -46,9 +46,8 @@ j = 0
 if(won?(board) == false)
   return true
 else
-  return true
-end
-
+  return false
+  end
 end
 #below is over method
 
